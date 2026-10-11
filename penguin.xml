@@ -7,7 +7,7 @@
 
   <!-- Build -->
   <remove-project name="AOSPA/android_build" />
-  <project path="build/make" name="Project-PenguinOS/build_make" remote="penguin" revision="celerity">
+  <project path="build/make" name="clo-for-giulia/build_make" remote="github" revision="celerity">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -18,24 +18,26 @@
   <remove-project name="platform/build/release" />
   <project path="build/release" name="Project-PenguinOS/android_build_release" remote="penguin" revision="celerity" />
   <remove-project name="AOSPA/android_build_soong" />
-  <project path="build/soong" name="Project-PenguinOS/build_soong" remote="penguin" revision="celerity">
+  <project path="build/soong" name="clo-for-giulia/build_soong" remote="github" revision="celerity">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- Frameworks -->
   <remove-project name="AOSPA/android_frameworks_av" />
-  <project path="frameworks/av" name="Project-PenguinOS/frameworks_av" remote="penguin" revision="celerity" />
+  <project path="frameworks/av" name="clo-for-giulia/frameworks_av" remote="github" revision="celerity" />
   <remove-project name="AOSPA/android_frameworks_base" />
-  <project path="frameworks/base" name="Project-PenguinOS/frameworks_base" remote="penguin" revision="celerity" />
+  <project path="frameworks/base" name="clo-for-giulia/frameworks_base" remote="github" revision="celerity" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="Project-PenguinOS/frameworks_libs_systemui" remote="penguin" revision="celerity" />
   <remove-project name="AOSPA/android_frameworks_native" />
-  <project path="frameworks/native" name="Project-PenguinOS/android_frameworks_native" remote="penguin" revision="celerity" />
+  <project path="frameworks/native" name="clo-for-giulia/android_frameworks_native" remote="github" revision="celerity" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="Project-PenguinOS/frameworks_opt_telephony" remote="penguin" revision="celerity" />
 
-  <!-- Hardware -->
+    <!-- Hardware -->
+  <remove-project name="AOSPA/android_device_qcom_common" />
+  <project path="device/qcom/common" name="clo-for-giulia/device_qcom_common" remote="github" revision="celerity" />
   <remove-project name="AOSPA/android_hardware_interfaces" />
   <project path="hardware/interfaces" name="Project-PenguinOS/hardware_interfaces" remote="penguin" revision="celerity" />
 
@@ -60,7 +62,7 @@
   <project path="packages/apps/PenguinSetupWizard" name="Project-PenguinOS/packages_apps_PenguinSetupWizard" remote="penguin" revision="celerity" />
   <project path="packages/apps/PenguinSystemUI" name="Project-PenguinOS/penguin_packages_apps_PenguinSystemUI" remote="penguin" revision="celerity" />
   <remove-project name="AOSPA/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="Project-PenguinOS/packages_apps_Settings" remote="penguin" revision="celerity" />
+  <project path="packages/apps/Settings" name="clo-for-giulia/packages_apps_Settings" remote="github" revision="celerity" />
   <remove-project name="AOSPA/android_packages_apps_ThemePicker" />
   <project path="packages/apps/ThemePicker" name="Project-PenguinOS/packages_apps_ThemePicker" remote="penguin" revision="celerity" />
   <project path="packages/apps/Updater" name="Project-PenguinOS/packages_apps_Updater" remote="penguin" revision="celerity" />
@@ -96,7 +98,7 @@
 
   <!-- Vendor -->
   <remove-project name="AOSPA/android_vendor_aospa" />
-  <project path="vendor/aospa" name="Project-PenguinOS/android_vendor_aospa" remote="penguin" revision="celerity">
+  <project path="vendor/aospa" name="clo-for-giulia/android_vendor_aospa" remote="github" revision="celerity">
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/custom-preference" name="Project-PenguinOS/vendor_custom-preference" remote="penguin" revision="celerity" />
@@ -153,5 +155,8 @@
   <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" remote="github" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" remote="github" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" remote="github" groups="pdk" revision="main" />
+
+  <remove-project name="proprietary_vendor_qcom_common" />
+  <project path="vendor/qcom/common" name="clo-for-giulia/vendor_qcom_common" remote="github" revision="celerity" />
 
 </manifest>

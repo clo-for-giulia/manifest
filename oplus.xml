@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <project path="device/oneplus/giulia" name="clo-for-giulia/android_device_oneplus_giulia" remote="github" revision="celerity" />
+  <project path="device/oneplus/giuliac" name="clo-for-giulia/android_device_oneplus_giuliac" remote="github" revision="celerity" />
+  <project path="device/oneplus/sm8650-common" name="clo-for-giulia/android_device_oneplus_sm8650-common" remote="github" revision="celerity" />
+  <project path="kernel/oneplus/sm8650" name="clo-for-giulia/android_kernel_oneplus_sm8650" remote="github" revision="celerity" />
+  <project path="kernel/oneplus/sm8650-devicetrees" name="clo-for-giulia/android_kernel_oneplus_sm8650-devicetrees" remote="github" revision="celerity" />
+  <project path="kernel/oneplus/sm8650-modules" name="clo-for-giulia/android_kernel_oneplus_sm8650-modules" remote="github" revision="celerity" />
+  <project path="hardware/oplus" name="clo-for-giulia/android_hardware_oplus" remote="github" revision="celerity" />
+  <project path="packages/apps/LunarisDolby" name="clo-for-giulia/android_packages_apps_LunarisDolby" remote="github" revision="celerity" />
+  <project path="packages/apps/BypassCharge" name="yaap/packages_apps_BypassCharge" remote="github" revision="sixteen" />
+  <project path="vendor/oplus/camera" name="clo-for-giulia/proprietary_vendor_oplus_camera" remote="github" revision="celerity" />
+  <project path="vendor/sony/dolby" name="clo-for-giulia/proprietary_vendor_sony_dolby" remote="github" revision="celerity" />
+  <project path="vendor/oneplus/ir" name="clo-for-giulia/vendor_oneplus_ir" remote="github" revision="celerity" />
+  <project path="vendor/qcom/opensource/libvmmem" name="clo-for-giulia/android_vendor_qcom_opensource_libvmmem" remote="github" revision="celerity" />
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_vibrator" />
+  <project path="vendor/qcom/opensource/vibrator" name="yaap/vendor_qcom_opensource_vibrator" remote="github" revision="sixteen" />
+</manifest>
