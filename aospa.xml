@@ -22,8 +22,10 @@
   <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" />
 
   <!-- Core -->
+  <remove-project name="platform/art" />
+  <project path="art" name="clo-for-giulia/aospa_art" remote="aospa" />
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" />
+  <project path="bionic" name="clo-for-giulia/aospa_bionic" remote="aospa" />
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
@@ -44,6 +46,8 @@
   <project path="external/jemalloc_new" name="AOSPA/android_external_jemalloc-new" remote="aospa" />
   <remove-project name="platform/external/tinycompress" />
   <project path="external/tinycompress" name="AOSPA/android_external_tinycompress" remote="aospa" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="clo-for-giulia/aospa_external_wpa_supplicant_8" remote="aospa" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -52,12 +56,16 @@
   <project path="frameworks/base" name="clo-for-giulia/aospa_frameworks_base" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="clo-for-giulia/aospa_frameworks_native" remote="aospa" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="clo-for-giulia/aospa_frameworks_opt_telephony" remote="aospa" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
-  <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" />
+  <project path="hardware/interfaces" name="clo-for-giulia/aospa_hardware_interfaces" remote="aospa" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <project path="hardware/nxp/nfc" name="clo-for-giulia/aospa_hardware_nxp_nfc" remote="aospa" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" />
 
@@ -98,11 +106,25 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="AOSPA/android_packages_apps_WallpaperPicker2" remote="aospa" />
   <remove-project name="platform/packages/modules/Bluetooth" />
-  <project path="packages/modules/Bluetooth" name="AOSPA/android_packages_modules_Bluetooth" remote="aospa" />
+  <project path="packages/modules/Bluetooth" name="clo-for-giulia/aospa_packages_modules_Bluetooth" remote="aospa" />
   <remove-project name="platform/packages/modules/Connectivity" />
-  <project path="packages/modules/Connectivity" name="AOSPA/android_packages_modules_Connectivity" remote="aospa" />
+  <project path="packages/modules/Connectivity" name="clo-for-giulia/aospa_packages_modules_Connectivity" remote="aospa" />
+  <remove-project name="platform/packages/modules/Nfc" />
+  <project path="packages/modules/Nfc" name="clo-for-giulia/aospa_packages_modules_Nfc" remote="aospa" />
+  <remove-project name="platform/packages/modules/Telephony" />
+  <project path="packages/modules/Telephony" name="clo-for-giulia/aospa_packages_modules_Telephony" remote="aospa" />
+  <remove-project name="platform/packages/modules/Uwb" />
+  <project path="packages/modules/Uwb" name="clo-for-giulia/aospa_packages_modules_Uwb" remote="aospa" />
+  <remove-project name="platform/packages/modules/Wifi" />
+  <project path="packages/modules/Wifi" name="clo-for-giulia/aospa_packages_modules_Wifi" remote="aospa" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="clo-for-giulia/aospa_packages_providers_MediaProvider" remote="aospa" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="clo-for-giulia/aospa_packages_providers_TelephonyProvider" remote="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
-  <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
+  <project path="packages/services/Telecomm" name="clo-for-giulia/aospa_packages_services_Telecomm" remote="aospa" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="clo-for-giulia/aospa_packages_services_Telephony" remote="aospa" />
 
   <!-- Prebuilts (AOSPA) -->
   <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" />

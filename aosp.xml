@@ -23,4 +23,47 @@
   <project path="external/icu" name="platform/external/icu" remote="aosp" clone-depth="1" />
   <project path="external/kotlinc" name="platform/external/kotlinc" remote="aosp" clone-depth="1" />
   <project path="external/swiftshader" name="platform/external/swiftshader" remote="aosp" clone-depth="1" />
+
+  <remove-project name="platform/external/exfatprogs" />
+  <project path="external/exfatprogs" name="platform/external/exfatprogs" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L0,vsdk_exc_L3" />
+  <remove-project name="platform/external/freetype" />
+  <project path="external/freetype" name="platform/external/freetype" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_inc_L1,vsdk_exc_L2,vsdk_exc_L3" />
+  <remove-project name="platform/external/libcupsfilters" />
+  <project path="external/libcupsfilters" name="platform/external/libcupsfilters" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L0,vsdk_exc_L3,vsdk_exc_L4,vsdk_exc_L5" />
+  <remove-project name="platform/external/libhevc" />
+  <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" />
+  <remove-project name="platform/external/libjxl" />
+  <project path="external/libjxl" name="platform/external/libjxl" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L0,vsdk_exc_L3,vsdk_exc_L4,vsdk_exc_L5" />
+  <remove-project name="platform/external/libopenapv" />
+  <project path="external/libopenapv" name="platform/external/libopenapv" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L0,vsdk_exc_L3,vsdk_exc_L4,vsdk_exc_L5" />
+  <remove-project name="platform/external/libpng" />
+  <project path="external/libpng" name="platform/external/libpng" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_exc_L3" />
+  <remove-project name="platform/external/libppd" />
+  <project path="external/libppd" name="platform/external/libppd" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L0,vsdk_exc_L3,vsdk_exc_L4,vsdk_exc_L5" />
+  <remove-project name="platform/external/rust/beto-rust" />
+  <project path="external/rust/beto-rust" name="platform/external/rust/beto-rust" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L0,vsdk_exc_L3,vsdk_exc_L4,vsdk_exc_L5" />
+  <remove-project name="platform/hardware/nxp/secure_element" />
+  <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_inc_L1,vsdk_exc_L2,vsdk_exc_L3" />
+  <remove-project name="platform/hardware/st/nfc" />
+  <project path="hardware/st/nfc" name="platform/hardware/st/nfc" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" />
+  <remove-project name="platform/packages/apps/ContactsPicker" />
+  <project path="packages/apps/ContactsPicker" name="platform/packages/apps/ContactsPicker" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="25Q4-fs-release,26Q2-fs-release,pdk-fs,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L0,vsdk_exc_L3,vsdk_exc_L4,vsdk_exc_L5" />
+  <remove-project name="platform/packages/modules/adb" />
+  <project path="packages/modules/adb" name="platform/packages/modules/adb" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_exc_L3" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk-cw-fs,pdk-fs,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk-cw-fs,pdk-fs,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
+  <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk-cw-fs,pdk-fs,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" />
+  <remove-project name="platform/system/libfmq" />
+  <project path="system/libfmq" name="platform/system/libfmq" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_inc_L3" />
+  <remove-project name="platform/system/libufdt" />
+  <project path="system/libufdt" name="platform/system/libufdt" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_inc_L1,vsdk_exc_L2,vsdk_exc_L3" />
+  <remove-project name="platform/packages/apps/TV" />
+  <project path="packages/apps/TV" name="platform/packages/apps/TV" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" />
+  <remove-project name="platform/packages/apps/TvSettings" />
+  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk-fs,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" />
+  <remove-project name="platform/packages/apps/Car/Settings" />
+  <project path="packages/apps/Car/Settings" name="platform/packages/apps/Car/Settings" remote="aosp" revision="refs/tags/android-security-17.0.0_r2" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk-fs,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" />
 </manifest>
