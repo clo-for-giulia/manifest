@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+
+  <!-- Device -->
+  <project path="device/oneplus/giulia" name="clo-for-giulia/device_oneplus_giulia" remote="github" revision="calcite" />
+  <project path="device/oneplus/giuliac" name="clo-for-giulia/device_oneplus_giuliac" remote="github" revision="calcite" />
+  <project path="device/oneplus/sm8650-common" name="clo-for-giulia/device_oneplus_sm8650-common" remote="github" revision="calcite" />
+
+  <!-- Hardware -->
+  <project path="hardware/oplus" name="clo-for-giulia/hardware_oplus" remote="github" revision="calcite" />
+
+  <!-- Kernel -->
+  <project path="kernel/oneplus/sm8650" name="clo-for-giulia/kernel_oneplus_sm8650" remote="github" revision="calcite" />
+  <project path="kernel/oneplus/sm8650-devicetrees" name="clo-for-giulia/kernel_oneplus_sm8650-devicetrees" remote="github" revision="calcite" />
+  <project path="kernel/oneplus/sm8650-modules" name="clo-for-giulia/kernel_oneplus_sm8650-modules" remote="github" revision="calcite" />
+
+  <!-- Packages -->
+  <project path="packages/apps/BypassCharge" name="yaap/packages_apps_BypassCharge" remote="github" revision="sixteen" />
+  <project path="packages/apps/GameSpace" name="clo-for-giulia/packages_apps_GameSpace" remote="github" revision="calcite" />
+  <project path="packages/apps/LunarisDolby" name="aosp-for-giulia/android_packages_apps_LunarisDolby" remote="github" revision="16" />
+
+  <!-- Vendor -->
+  <project path="vendor/oneplus/sm8650-oss" name="clo-for-giulia/vendor_oneplus_sm8650-oss" remote="github" revision="calcite" />
+  <project path="vendor/oplus/camera" name="clo-for-giulia/vendor_oplus_camera" remote="github" revision="calcite" />
+  <project path="vendor/sony/dolby" name="aosp-for-giulia/proprietary_vendor_sony_dolby" remote="github" revision="16" />
+  <project path="vendor/oneplus/ir" name="aosp-for-giulia/vendor_oneplus_ir" remote="github" revision="16" />
+
+</manifest>
